@@ -63,13 +63,15 @@ Business cost simulation
 
 ## Results
 
-Metric	            Score
-ROC-AUC	            0.97
-Average Precision	0.97
-Optimized F1	    0.86
-Fraud Recall	    90%
+| Metric	           | Score |
+|--------------------|-------|
+| ROC-AUC	           | 0.97  |
+| Average Precision  | 0.97  |
+| Optimized F1	     | 0.86  |
+| Fraud Recall	     | 90%   |
 
 -> Improved fraud detection using threshold optimization
+
 -> Reduced estimated financial loss through cost-based evaluation
 
 ## Business Impact Simulation
