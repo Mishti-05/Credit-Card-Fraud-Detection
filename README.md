@@ -98,20 +98,6 @@ Precision-Recall Curve
 ![PR Curve](images/pr_curve.png)
 
 
-##Project Structure
-credit-card-fraud-detection/
-│
-├── data/
-├── src/
-│   ├── preprocessing.py
-│   ├── model.py
-│   ├── evaluation.py
-├── notebook/
-│   └── main.ipynb
-├── requirements.txt
-└── README.md
-
-
 ## Tech Stack
 
 Python
