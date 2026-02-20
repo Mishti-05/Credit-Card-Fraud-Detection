@@ -1,7 +1,7 @@
-#Credit Card Fraud Detection using Machine Learning
+# Credit Card Fraud Detection using Machine Learning
 
 
-##Overview
+## Overview
 
 This project builds a fraud detection system to classify fraudulent credit card transactions on a highly imbalanced dataset (~0.17% fraud rate).
 
@@ -19,7 +19,7 @@ Simulates real-world financial impact
 
 This project demonstrates applied machine learning, model evaluation, and business-aware optimization.
 
-##Dataset
+## Dataset
 
 284,807 transactions
 
@@ -31,9 +31,9 @@ Binary classification problem
 
 Highly imbalanced dataset typical in real-world fraud detection systems.
 
-##Machine Learning Pipeline
+## Machine Learning Pipeline
 
-###1️. Data Processing
+### 1️. Data Processing
 
 Stratified train-test split
 
@@ -41,7 +41,7 @@ Standard scaling (Amount feature)
 
 SMOTE for class balancing
 
-###2️. Model Training
+### 2️. Model Training
 
 Random Forest Classifier
 
@@ -49,7 +49,7 @@ Class weighting
 
 Optimized on ROC-AUC
 
-###3️. Advanced Evaluation
+### 3️. Advanced Evaluation
 
 ROC-AUC Score
 
@@ -61,7 +61,7 @@ Threshold optimization
 
 Business cost simulation
 
-##Results
+## Results
 
 Metric	            Score
 ROC-AUC	            0.97
@@ -72,7 +72,7 @@ Fraud Recall	    90%
 -> Improved fraud detection using threshold optimization
 -> Reduced estimated financial loss through cost-based evaluation
 
-##Business Impact Simulation
+## Business Impact Simulation
 
 Instead of using default 0.5 threshold:
 
@@ -84,7 +84,7 @@ Estimated financial impact of model decisions
 
 This mirrors real-world fraud detection systems used in banking.
 
-##Visualizations
+## Visualizations
 
 ROC Curve
 ![ROC Curve](images/roc_curve.png)
@@ -107,7 +107,7 @@ credit-card-fraud-detection/
 └── README.md
 
 
-##Tech Stack
+## Tech Stack
 
 Python
 
