@@ -89,10 +89,12 @@ This mirrors real-world fraud detection systems used in banking.
 ## Visualizations
 
 ROC Curve
+
 ![ROC Curve](images/roc_curve.png)
 
 
 Precision-Recall Curve
+
 ![PR Curve](images/pr_curve.png)
 
 
